@@ -1,0 +1,11 @@
+frp:
+  image: zhanhao/frp
+  ports:
+    - "7000:7000/tcp"
+    - "6000:6000/udp"
+    - "7500:7500/tcp"
+    - "8080:8080/tcp"
+  volumes:
+    - "/root/docker/frp/config:/frp/config"
+  restart: always
+
