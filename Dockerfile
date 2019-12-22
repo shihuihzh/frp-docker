@@ -1,7 +1,7 @@
 FROM alpine
 MAINTAINER Howe <shihuihzh@gmail.com>
 
-ARG FRP_VER=0.20.0
+ARG FRP_VER=0.29.1
 ARG FRP_URL=https://github.com/fatedier/frp/releases/download/v$FRP_VER/frp_${FRP_VER}_linux_amd64.tar.gz
 
 ENV SERVER_PORT 7000
